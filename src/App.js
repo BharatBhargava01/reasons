@@ -7,11 +7,24 @@ const reasons = [
   "You understand me better than anyone ❤️",
   "You make me laugh when I don’t want to 😄",
   "You’re my favorite person to talk to 🫶",
-  "You make me feel safe and loved 🏡",
+  "You make me feel loved 🏡",
   "You’re beautiful in ways you don’t even realize 🌸",
   "You support me no matter what 💪",
   "You’re my best friend ❤️",
-  "Every moment with you feels right ⏳"
+  "Every moment with you feels right ⏳",
+  "I just love it when you say kya bolte hai ❤️",
+  "Your eyes are so sharp and elegant 👁️",
+  "You are so straight forward and unique ✨",
+  "You wait for me even when I am super late ⏳",
+  "You take care of yourself so well 💕",
+  "You like to help people without anything in return 💫",
+  "You are so smart and goal-oriented person 🧠",
+  "You got me chicken salad 💕",
+  "You are a creative person ✨",
+  "You always make me feel special ❤️",
+  "Your accent is so attractive 💕",
+  "Seeing you makes my day 😊"
+  
 ];
 
 function App() {
@@ -20,7 +33,7 @@ function App() {
 
   // Typing effect
   useEffect(() => {
-    let index = 0;
+    let index = -1;
     setDisplayedText("");
 
     const interval = setInterval(() => {
